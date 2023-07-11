@@ -24,14 +24,14 @@ export const PRODUCTS = {
     name: "Strawberry",
     body: '',
     image: '/images/sunflower.jpg',
-    featured: true,
+    featured: false,
     slug: "strawberry"
   },
   "beets": {
     name: "Beets",
     body: '',
     image: '/images/sunflower.jpg',
-    featured: true,
+    featured: false,
     slug: "beets"
   },
   "radish": {

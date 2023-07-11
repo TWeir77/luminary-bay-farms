@@ -11,7 +11,10 @@ export const articlesSlice = createSlice({
 
 export const selectProducts = (state) => state.products.products;
 export const filterProducts = (query, products) => Object.values(products).filter(product => product.name.toLowerCase().includes(query.toLowerCase()));
-export const featuredProducts = (products) => Object.values(products).filter(product => product.featured.true);
+export const featuredProducts = (products) => Object.values(products).filter(product => {
+  if (product.featured) {
+    return product
+  }});
 export default articlesSlice.reducer;
 
 // console.log(featuredProducts(PRODUCTS))

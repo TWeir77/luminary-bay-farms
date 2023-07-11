@@ -11,7 +11,7 @@ export default function Home() {
           <h2>Home Grown Micro Greens Built To Pack A Punch Of Full Flavor And Nutrition</h2>
         </div>
       </div>
-      {/* <Featured /> */}
+      <Featured />
       <div className="micro-greens-container">
         <div className="micro-greens-content">
           <h2>Micro Greens</h2>
