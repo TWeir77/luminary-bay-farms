@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  height: 8rem;
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: rgb(2, 176, 207);
+  padding: 0, 15px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-button {
+  padding: 15px;
+  margin: 0;
+}
+
+.home-icon {
+  width: 50px;
+  height: 50px;
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 0, 5px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+.inactiveNavLink {
+  text-decoration: none;
+  color: white;
+}
+
+.activeNavLink {
+  text-decoration: underline;
+  color: lightgreen;
+}
