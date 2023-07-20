@@ -37,12 +37,13 @@
   display: flex;
   width: 90%;
   padding: 1% 5%;
+  margin: 100px 0;
   justify-content: space-between;
   background-color: lightgreen;
 }
 
 .micro-greens-container img {
-  width: 40%;
+  width: 45%;
   border: solid cyan 3px;
   border-radius: 5px;
 }
@@ -50,12 +51,13 @@
 .micro-greens-content {
   display: flex;
   flex-direction: column;
-  padding-right: 35px;
+  padding-right: 50px;
   font-size: 1.2rem;
 }
 
 .micro-greens-content button {
-  margin: 5px 38%;
+  margin: 10px 38%;
+  margin-top: 50px;
   padding: 10px;
   font-size: 1rem;
   background-color: cyan;

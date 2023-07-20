@@ -1,0 +1,27 @@
+footer {
+  height: 3.5rem;
+  width: 90%;
+  justify-content: center;
+  padding: 5%;
+  padding-bottom: 8%;
+  background-color: lightgray;
+}
+
+footer ul {
+  display: flex;
+  border-bottom: 1px black solid;
+  margin: 0;
+  padding: 20px 0;
+
+}
+
+li {
+  list-style: none;
+  text-transform: none;
+  padding-right: 25px;
+}
+
+footer p {
+  font-size: 14px;
+  color: rgb(67, 67, 67);
+}
