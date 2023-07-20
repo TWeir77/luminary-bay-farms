@@ -1,0 +1,63 @@
+.landing-banner {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 35px;
+  display: flex;
+  background-image: url(../../../public/images/display-trio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 5px solid cyan;
+  justify-content: start;
+  align-items: center;
+}
+
+.banner-title {
+  background-color: rgba(5, 127, 180, .85);
+  border: solid cyan 3px;
+  border-radius: 40px;
+  width: 40%;
+  margin: 5%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title h1 {
+  font-size: 3rem;
+}
+
+.banner-title h2 {
+  font-size: 1.5rem;
+}
+
+.micro-greens-container {
+  display: flex;
+  width: 90%;
+  padding: 1% 5%;
+  justify-content: space-between;
+  background-color: lightgreen;
+}
+
+.micro-greens-container img {
+  width: 40%;
+  border: solid cyan 3px;
+  border-radius: 5px;
+}
+
+.micro-greens-content {
+  display: flex;
+  flex-direction: column;
+  padding-right: 35px;
+  font-size: 1.2rem;
+}
+
+.micro-greens-content button {
+  margin: 5px 38%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: cyan;
+  border-radius: 8px;
+}

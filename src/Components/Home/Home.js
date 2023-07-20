@@ -18,7 +18,7 @@ export default function Home() {
           <p>If you didn't know already, micro greens are classified as plants that are harvested, at max, about a week after they start growing. The secret to these tasty little greens is that they pack a mass of nutrients to help the young flora grow. Perfect for salads, garnishes, or even a great snack, micro greens come in a variety of shapes, and colors, rich in potassium, iron, zinc, copper, and magnesium. Peak your interest yet?</p>
           <button>Learn More!</button>
         </div>
-        <img src=''/>
+        <img src="/images/display-prep.jpg" alt='Micro Greens Prep' />
       </div>
     </main>
   )
