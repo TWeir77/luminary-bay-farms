@@ -9,13 +9,13 @@ export default function Header() {
         <NavLink
           to='/'
           className='home-icon'
-        > Luminary Bay <br />Farms </NavLink>
+        ><img src='/images/logo-white.png' /> Luminary Bay<br />Farms </NavLink>
       </div>
       <div className="nav">
         <NavLink
           to="products"
           className={({ isActive }) => isActive ? 'activeNavLink' : 'inactiveNavLink'}
-        > Micro Greens </NavLink>
+        > Microgreens </NavLink>
         <NavLink
           to="about"
           className={({ isActive }) => isActive ? 'activeNavLink' : 'inactiveNavLink'}
