@@ -12,19 +12,19 @@ export default function Products() {
 
   return (
     <main>
-      <h1>Micro Greens</h1>
-      <h2>Learn more about the best micro greens grown at Luminary Bay Farms!</h2>
+      <h1>Microgreens</h1>
+      <h2>Learn more about the best microgreens grown at Luminary Bay Farms!</h2>
       <ul>
-        { filteredProducts.map(product => (
+        {filteredProducts.map(product => (
           <li key={product.slug}>
             <div className="product-card">
               <Link to={`${product.slug}`}>
                 {product.name}
               </Link>
-              <img src={product.image} alt={product.name}/>
+              <img src={product.image} alt={product.name} />
             </div>
           </li>
-        )) }
+        ))}
       </ul>
     </main>
   )
