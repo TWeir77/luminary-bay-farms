@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from "../../App/scrollToTop";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { selectProducts, featuredProducts } from "../../Features/products/productsSlice";
@@ -13,6 +14,7 @@ export default function Featured() {
       <ul className='featured-list' >
         {featuredProducts(products).map(product => (
           <li key={product.slug}>
+            <ScrollToTop />
             <Link className="product-card" to={`/products/${product.slug}`}>
               <h3 className='product-name' >
                 {product.name}
