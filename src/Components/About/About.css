@@ -1,0 +1,35 @@
+.about-banner {
+  border-top: 5px solid lightgreen;
+}
+
+.about-banner h1 {
+  text-align: center;
+  margin: 0;
+  padding: 3% 0;
+  color: cyan;
+  text-shadow: 2px 2px black;
+  background-image: url(/public/images/display-trio.jpg);
+  background-size: cover;
+}
+
+.about-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: aqua;
+  padding: 2% 0;
+  margin: 2% 0;
+  height: 500px;
+}
+
+.about-image {
+  width: 42.5%;
+  height: 100%;
+  box-sizing: border-box;
+  object-fit: cover;
+  border: 3px solid darkslategrey;
+}
+
+.about-content {
+  width: 42.5%;
+}
