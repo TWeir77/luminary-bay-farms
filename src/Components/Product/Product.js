@@ -3,6 +3,7 @@ import './Product.css';
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { selectProducts } from "../../Features/products/productsSlice";
+import Featured from "../Featured/Featured";
 
 export default function Product() {
   const products = useSelector(selectProducts);
@@ -10,13 +11,21 @@ export default function Product() {
   const product = products[name];
 
   return product ? (
-    <div className="product-container">
-      <div className="product-content">  
-        <h1 className="product-name">{product.name}</h1>
-        <aside>{product.featured ? 'Feature Favorite' : 'New Addition'}</aside>
-        <p>{product.body}</p>
+    <>
+      <div className="product-container">
+        <div className="product-content">  
+          <h1 className="product-name">{product.name}</h1>
+          <aside>{product.featured ? 'Feature Favorite' : 'New Addition'}</aside>
+          <p>{product.body}</p>
+        </div>
+        <img className='product-img' src={product.image} alt={product.name}/>
       </div>
-      <img className='product-img' src={product.image} alt={product.name}/>
-    </div>
-  ) : <p> No product found with that title... </p>
+      <Featured />
+    </>
+  ) : (
+    <>
+      <h3 className="error"> No product found with that title... </h3>
+      <Featured />
+    </>
+  )
 }

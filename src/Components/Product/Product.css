@@ -1,3 +1,46 @@
-.product-content p {
+.product-container {
+  width: 90%;
+  padding: 5% 5%;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  border-top: 4px solid lightgreen;
+  
+}
+
+.product-content {
+  width: 55%;
+  padding: 0 1.5%;
+  box-sizing: border-box;
+  border-left: 3px solid cyan;
+  border-right: 3px solid cyan;
+}
+
+.product-content .product-name {
+  padding: 10px 0;
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+
+.product-content p, aside {
   white-space: pre-wrap;
+  padding: 1.5%;
+}
+
+.product-img {
+  width: 40%;
+  box-sizing: border-box;
+  border: 3px solid darkslategrey;
+  border-radius: 10px;
+}
+
+
+
+.error {
+  margin: 0;
+  padding: 5% 0;
+  font-size: 2rem;
+  text-align: center;
+  border-top: 4px solid lightgreen;
+  border-bottom: 4px solid lightgreen;
 }
