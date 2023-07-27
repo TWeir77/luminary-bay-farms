@@ -1,6 +1,6 @@
 main {
   background-color: rgb(229, 229, 229);
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .landing-banner {
@@ -14,9 +14,7 @@ main {
   background-position: center;
   background-position-y: 60%;
   border-bottom: 5px solid cyan;
-  justify-content: start;
   align-items: center;
-  /* opacity: 0.4; */
 }
 
 .landing-banner::before {
@@ -32,8 +30,6 @@ main {
 }
 
 .banner-title {
-  /* background-color: rgba(5, 127, 180, .85); */
-  /* border: solid cyan 3px; */
   border-radius: 40px;
   color: rgb(0, 255, 255);
   opacity: 1;
@@ -80,11 +76,13 @@ main {
   font-size: 1.2rem;
 }
 
-.microgreens-content button {
+.microgreens-content .button {
   margin: 10px 38%;
   margin-top: 50px;
   padding: 10px;
   font-size: 1rem;
   background-color: cyan;
+  border: 2px solid darkslategrey;
   border-radius: 8px;
+  text-align: center;
 }
