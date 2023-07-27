@@ -45,10 +45,13 @@ export default function About() {
             <p>On to the most exciting part of microgreens, eating them! Aside from a healthy snack, there are countless ways to enjoy these little greens, and you should feel encouraged to experiment as much as possible! However, if you wanna stay simple or you need a hand fueling that imagination, we've got plenty of suggestions for delicious ways to prepare them.</p>
             <p>Firstly, the most common uses are as garnishes and salads. Take a microgreen you like, with a flavor you think will compliment a dish, and just sprinkle them on. With the fresh wave of color and taste, you'll be surprised at how quickly your meal gains the appearance of something prepared by a master chef. Salads are just as simple. You can easily add them to a salad you already enjoy, or bundle different microgreens together and create your own combo of flavored greens.</p>
             <p>Now for the less common, but just as mouth-watering, ideas. Microgreens can be a great addition to homemade smoothies or juices, filling it with all those extra nutrients while maintaining the great taste you want. If you're looking for a healthy start to your day, add some to your avocado toast. They also make for great toppings on sandwiches, tacos, or even pizza! It's just as easy to spruce up your dinners with microgreen pesto, stir-fry dishes, or pastas.</p>
-            <p>Luminary Bay Farms will always welcome your enthusiasm and support. We hope you'll come to love our microgreens as much as we do. Please feel free to reach out to our founder, Neil Sterling, to inquire more about our mission, recipes, and inspirations!</p>
+            
           </div>
           <img src="../../../images/taco-salad-garnish.jpg" className="about-image" alt="taco garnish"/>
         </div>
+      </div>
+      <div className="final-message">
+        <p>Luminary Bay Farms will always welcome your enthusiasm and support. We hope you'll come to love our microgreens as much as we do. Please feel free to reach out to our founder, Neil Sterling, to inquire more about our mission, recipes, and inspirations!</p>
       </div>
     </main>
   )
