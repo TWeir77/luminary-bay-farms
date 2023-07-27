@@ -25,6 +25,7 @@
   align-items: center;
   border: 5px solid black;
   border-radius: 15px;
+  box-sizing: border-box;
   text-decoration: none;
   margin: 2px 0;
 }
