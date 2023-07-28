@@ -1,0 +1,53 @@
+#contact-title {
+  border-top: 4px solid lightgreen;
+
+}
+
+#contact-title .section-title {
+  margin-top: 0;
+  padding-top: 3rem;
+}
+
+#form-header {
+  padding: 0 5%;
+  margin: 0;
+  text-align: center;
+}
+
+#form-subheader {
+  font-size: 1rem;
+  text-align: center;
+  padding: 5px 15%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 2% 20%;
+  font-size: 1.5rem;
+}
+
+.radio {
+  display: flex;
+  flex: start;
+}
+
+label {
+  font-size: 1rem;
+  width: 60%;
+  padding-left: 5%;
+}
+
+.bubble {
+  width: 5%;
+  justify-self: start;
+}
+
+#submit-button {
+  padding: 1.5%;
+  font-size: 1.2rem;
+  align-self: center;
+  text-align: center;
+  width: 20%;
+}
