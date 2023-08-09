@@ -28,3 +28,19 @@
 .product-list .product-card img {
   height: 300px;
 }
+
+@media only screen and (max-width: 800px) {
+  .products h2 {
+    margin: 20px 40px;
+  }
+
+  .product-list .product-card img {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}

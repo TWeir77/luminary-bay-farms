@@ -40,6 +40,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   text-shadow: black 2px 2px;
 }
@@ -77,12 +78,73 @@ main {
 }
 
 .microgreens-content .button {
-  margin: 10px 38%;
-  margin-top: 50px;
+  margin: 10px auto;
+  margin-top: 30px;
   padding: 10px;
   font-size: 1rem;
   background-color: cyan;
   border: 2px solid darkslategrey;
   border-radius: 8px;
+  justify-self: center;
   text-align: center;
+}
+
+@media only screen and (max-width: 1050px) { 
+  .landing-banner, .landing-banner::before {
+    height: 500px;
+  }
+
+  .banner-title h1 {
+    font-size: 3rem;
+  }
+
+  .banner-title h2 {
+    font-size: 1rem
+  }
+
+  .microgreens-container {
+    height: 350px;
+  }
+
+  .microgreens-content p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .microgreens-content .button {
+    margin-top: 20px;
+    width: 30%;
+  }
+
+  .microgreens-container img {
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 810px) { 
+  .landing-banner, .landing-banner::before {
+    height: 350px;
+  }
+
+  .microgreens-content .button {
+    margin-top: 10px;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 700px) { 
+  .microgreens-container {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 15px 5%;
+  }
+
+  .microgreens-content {
+    padding: 0;
+  }
+  .microgreens-container img {
+    width: 100%;
+    height: 250px;
+  }
 }

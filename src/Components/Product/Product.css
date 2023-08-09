@@ -29,9 +29,11 @@
 
 .product-img {
   width: 40%;
+  height: 400px;
   box-sizing: border-box;
   border: 3px solid darkslategrey;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 
@@ -43,4 +45,14 @@
   text-align: center;
   border-top: 4px solid lightgreen;
   border-bottom: 4px solid lightgreen;
+}
+
+@media only screen and (max-width: 700px) {
+  .product-container {
+    flex-direction: column;
+  }
+
+  .product-content, .product-img {
+    width: 100%;
+  }
 }

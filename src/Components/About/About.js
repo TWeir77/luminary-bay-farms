@@ -8,7 +8,7 @@ export default function About() {
         <h1>The Story at Luminary Bay Farms!</h1>
         <h2 className="section-title">The Green Thumb</h2>
         <div className="about-card">
-          <img src="../../../images/Neil-Sterling-wide.jpg" className='about-image' alt="Neil Sterling Profile" />
+          <img src="../../../images/Neil-Sterling-wide.jpg" id='profile-img' className='about-image' alt="Neil Sterling Profile" />
           <div className="about-content">
             <h3>Neil Sterling</h3>
             <p>Meet Neil, the founder and owner of Luminary Bay Farms! Neil has always had a passion for nature and the environment. He's a big believer in sustainable living and the organic diet. Neil's love for nature led him to gardening, where he discovered the joy of growing his own food. He quickly realized that there's nothing quite like the taste of fresh, homegrown produce.</p>
@@ -20,7 +20,7 @@ export default function About() {
       </div>
       <div className="about-microgreens" id="microgreens-bio">
         <h2 className="section-title">Microgreens</h2>
-        <div className="about-card">
+        <div className="about-card column-reversal">
           <div className="about-content">
             <h3>What Are They?</h3>
             <p>So, by the time you got here, you've at least come to understand that microgreens are tiny little plants, but what exactly <emphasis>are</emphasis> microgreens? Well the short answer is that microgreens are essentially seedlings, or sprouts, of various herbs and vegetables. The truth is, you may have seen them plenty of times before without realizing it, as they are a favorite topping for many chefs.</p>
@@ -39,7 +39,7 @@ export default function About() {
             <p>After the average week of TLC, these microgreens will look full and flush with vibrant colors, ready to harvest. These homegrown microgreens will last an average of two weeks in the fridge, although they will surely prove hard to resist. You may find yourself trying not to eat them all in one sitting!</p>
           </div>
         </div>
-        <div className="about-card">
+        <div className="about-card column-reversal">
           <div className="about-content">
             <h3>How To Enjoy Them</h3>
             <p>On to the most exciting part of microgreens, eating them! Aside from a healthy snack, there are countless ways to enjoy these little greens, and you should feel encouraged to experiment as much as possible! However, if you wanna stay simple or you need a hand fueling that imagination, we've got plenty of suggestions for delicious ways to prepare them.</p>

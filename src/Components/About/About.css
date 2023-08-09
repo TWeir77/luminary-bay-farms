@@ -56,3 +56,55 @@
   border-radius: 10px;
   background-color: rgba(0, 255, 0, 0.356);
 }
+
+@media only screen and (max-width: 1300px) {
+  .about-image {
+    width: 30%
+  }
+
+  .about-content {
+    width: 55%
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-card {
+    flex-direction: column;
+    justify-content: start;
+    max-height: 1000px;
+    height: auto;
+  }
+
+  .column-reversal {
+    flex-direction: column-reverse;
+  }
+
+  .about-content, .about-image {
+    width: 85%;
+  }
+  
+  .about-content p {
+    font-size: 12px;
+  }
+
+  .about-image {
+    height: 300px;
+
+  }
+
+  #profile-img {
+    object-position: top;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 760px) { 
+  .about-content p {
+    font-size: 12px;
+  }
+
+  .final-message {
+    font-size: 0.7rem;
+  }
+}
+
