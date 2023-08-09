@@ -8,7 +8,7 @@ export default function About() {
         <h1>The Story at Luminary Bay Farms!</h1>
         <h2 className="section-title">The Green Thumb</h2>
         <div className="about-card">
-          <img src="../../../images/bunny-snack1.jpg" className='about-image' alt="Neil Sterling Profile" />
+          <img src="../../../images/Neil-Sterling-wide.jpg" className='about-image' alt="Neil Sterling Profile" />
           <div className="about-content">
             <h3>Neil Sterling</h3>
             <p>Meet Neil, the founder and owner of Luminary Bay Farms! Neil has always had a passion for nature and the environment. He's a big believer in sustainable living and the organic diet. Neil's love for nature led him to gardening, where he discovered the joy of growing his own food. He quickly realized that there's nothing quite like the taste of fresh, homegrown produce.</p>
@@ -47,7 +47,7 @@ export default function About() {
             <p>Now for the less common, but just as mouth-watering, ideas. Microgreens can be a great addition to homemade smoothies or juices, filling it with all those extra nutrients while maintaining the great taste you want. If you're looking for a healthy start to your day, add some to your avocado toast. They also make for great toppings on sandwiches, tacos, or even pizza! It's just as easy to spruce up your dinners with microgreen pesto, stir-fry dishes, or pastas.</p>
             
           </div>
-          <img src="../../../images/taco-salad-garnish.jpg" className="about-image" alt="taco garnish"/>
+          <img src="../../../images/bunny-snack1.jpg" className="about-image" alt="taco garnish"/>
         </div>
       </div>
       <div className="final-message">
