@@ -6,15 +6,17 @@ export default function About() {
     <main>
       <div className='about-banner'>
         <h1>The Story at Luminary Bay Farms!</h1>
-        <h2 className="section-title">The Green Thumb</h2>
-        <div className="about-card">
-          <img src="../../../images/Neil-Sterling-wide.jpg" id='profile-img' className='about-image' alt="Neil Sterling Profile" />
-          <div className="about-content">
-            <h3>Neil Sterling</h3>
-            <p>Meet Neil, the founder and owner of Luminary Bay Farms! Neil has always had a passion for nature and the environment. He's a big believer in sustainable living and the organic diet. Neil's love for nature led him to gardening, where he discovered the joy of growing his own food. He quickly realized that there's nothing quite like the taste of fresh, homegrown produce.</p>
-            <p>Neil's passion for gardening eventually led him to start growing microgreens. Everything he produced quickly became a favorite among family and friends, enjoying the greens as salads, garnishes, and even as a great snack. Using organic, sustainable methods, he saw a business opportunity to provide people with a healthier form of food, packed with vitamins and nutrients.</p>
-            <p>When Neil isn't working, he enjoys spending time outdoors; hiking, camping, and exploring new places. As he clearly likes to work with his hands, it came as no surprise that Neil ventured into other DIY hobbies as well, such as microbrewing!</p>
-            <p>Neil is excited to share his passion for microgreens with you and hopes that you'll join him on this journey. Whether you're a health nut or just looking to try something new, Neil's microgreens are the perfect addition to any meal. Thanks for stopping by and we look forawrd to hearing from you!</p>
+        <div className="about-section">
+          <h2 className="section-title">The Green Thumb</h2>
+          <div className="about-card">
+            <img src="../../../images/Neil-Sterling-wide.jpg" id='profile-img' className='about-image' alt="Neil Sterling Profile" />
+            <div className="about-content">
+              <h3>Neil Sterling</h3>
+              <p>Meet Neil, the founder and owner of Luminary Bay Farms! Neil has always had a passion for nature and the environment. He's a big believer in sustainable living and the organic diet. Neil's love for nature led him to gardening, where he discovered the joy of growing his own food. He quickly realized that there's nothing quite like the taste of fresh, homegrown produce.</p>
+              <p>Neil's passion for gardening eventually led him to start growing microgreens. Everything he produced quickly became a favorite among family and friends, enjoying the greens as salads, garnishes, and even as a great snack. Using organic, sustainable methods, he saw a business opportunity to provide people with a healthier form of food, packed with vitamins and nutrients.</p>
+              <p>When Neil isn't working, he enjoys spending time outdoors; hiking, camping, and exploring new places. As he clearly likes to work with his hands, it came as no surprise that Neil ventured into other DIY hobbies as well, such as microbrewing!</p>
+              <p>Neil is excited to share his passion for microgreens with you and hopes that you'll join him on this journey. Whether you're a health nut or just looking to try something new, Neil's microgreens are the perfect addition to any meal. Thanks for stopping by and we look forawrd to hearing from you!</p>
+            </div>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ export default function Header() {
         <NavLink
           to='/'
           className='home-icon'
-        ><img src='/images/logo-white.png' alt="logo"/> Luminary Bay<br />Farms </NavLink>
+        ><img src='/images/logo-white.png' alt="logo"/> <span id="header-title">Luminary Bay<br />Farms </span></NavLink>
       </div>
       <div className="nav">
         <ScrollToTop />

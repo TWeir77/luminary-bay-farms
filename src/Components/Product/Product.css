@@ -3,17 +3,18 @@
   padding: 5% 5%;
   display: flex;
   justify-self: center;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   border-top: 4px solid lightgreen;
   
 }
 
 .product-content {
-  width: 55%;
+  width: 55%;  
+  max-width: 650px;
   padding: 0 1.5%;
   box-sizing: border-box;
   border-left: 3px solid cyan;
-  border-right: 3px solid cyan;
 }
 
 .product-content .product-name {
@@ -29,6 +30,7 @@
 
 .product-img {
   width: 40%;
+  max-width: 650px;
   height: 400px;
   box-sizing: border-box;
   border: 3px solid darkslategrey;
@@ -50,6 +52,10 @@
 @media only screen and (max-width: 700px) {
   .product-container {
     flex-direction: column;
+  }
+
+  .product-content {
+    border-right: 3px solid cyan;
   }
 
   .product-content, .product-img {

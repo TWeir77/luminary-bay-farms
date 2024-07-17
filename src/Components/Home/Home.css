@@ -1,6 +1,7 @@
 main {
   background-color: rgb(229, 229, 229);
   padding-bottom: 30px;
+  justify-content: center;
 }
 
 .landing-banner {
@@ -58,20 +59,22 @@ main {
 .microgreens-container {
   display: flex;
   width: 90%;
-  padding: 1% 5%;
+  padding: 60px 5%;
   margin: 70px 0 0;
-  justify-content: space-between;
+  justify-content: center;
   background-color: lightgreen;
 }
 
 .microgreens-container img {
   width: 45%;
+  max-width: 650px;
   border: solid cyan 3px;
   border-radius: 5px;
 }
 
 .microgreens-content {
   display: flex;
+  max-width: 650px;
   flex-direction: column;
   padding-right: 50px;
   font-size: 1.2rem;
@@ -137,7 +140,7 @@ main {
   .microgreens-container {
     flex-direction: column-reverse;
     height: auto;
-    padding: 15px 5%;
+    padding: 40px 5%;
   }
 
   .microgreens-content {

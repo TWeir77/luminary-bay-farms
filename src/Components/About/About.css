@@ -12,19 +12,22 @@
   background-size: cover;
 }
 
+
 .about-card {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: aqua;
-  padding: 2% 0;
-  margin: 2% 0;
+  padding: 40px 0;
+  margin: 2% 0 50px;
   height: 500px;
 }
 
 .about-image {
   width: 42.5%;
   height: 100%;
+  max-width: 600px;
+  margin: 1.5%;
   box-sizing: border-box;
   object-fit: cover;
   border: 3px solid darkslategrey;
@@ -33,6 +36,8 @@
 .about-content {
   width: 42.5%;
   height: 100%;
+  max-width: 600px;
+  padding: 1.5%;
   display: flex;
   flex-direction: column;
 }
@@ -48,7 +53,8 @@
 
 .final-message {
   padding: 1.5% 4%;
-  margin: 5% 6% 1.5%;
+  margin: 5% auto 1.5%;
+  max-width: 1200px;
   text-align: center;
   font-size: 1.2rem;
   border-left: 3px solid cyan;

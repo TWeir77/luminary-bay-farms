@@ -1,6 +1,12 @@
+.featured-main {
+  max-width: 1400px;
+  margin: auto;
+}
+
 .section-title {
-  margin: 60px 5% 15px;
+  margin: 60px auto 15px;
   width: 90%;
+  max-width: 1200px;
   border-bottom: 3px solid cyan;
   font-size: 32px;
 }

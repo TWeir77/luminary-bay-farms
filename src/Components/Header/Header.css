@@ -4,7 +4,7 @@
   font-size: 2rem;
   font-weight: 500;
   background-color: rgb(229, 229, 229);
-  padding: 0, 15px;
+  padding: 0, 2%;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -30,35 +30,38 @@
 }
 
 .nav {
-  margin: 15px 15px;
+  margin: 15px 50px;
   margin-left: 0;
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  width: 25%;
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1300px) {
   .nav {
-    width: 45%
+    width: 40%
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .nav {
     flex-direction: column;
     align-items: end;
     width: 25%;
     height: 100%;
+    margin: 15px 25px;
     font-size: 20px;
     justify-content: space-around;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
+  #header-title {
+    visibility: hidden;
+  }
   .home-button {
-    font-size: 24px;
-    width: 55%;
+    width: 40%;
   }
 }
 

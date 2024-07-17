@@ -9,7 +9,7 @@ export default function Featured() {
   const products = useSelector(selectProducts);
 
   return (
-    <>
+    <div className="featured-main">
       <h2 className='section-title' >Featured Favorites</h2>
       <ul className='featured-list' >
         {featuredProducts(products).map(product => (
@@ -24,6 +24,6 @@ export default function Featured() {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   )
 }
